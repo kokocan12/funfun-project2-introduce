@@ -1,0 +1,32 @@
+h2{
+    font-weight: bold; border-bottom: 1px #eee solid; padding:10px;
+    color:#24292E; font-size: 32px;
+}
+
+h3{
+    font-weight: bold; border-bottom: 1px #eee solid; padding:20px;
+    color:#24292E;
+}
+h4{
+    font-weight: bold; border-bottom: 1px #eee solid; padding:30px;
+    color:#24292E;
+}
+p{
+    color:#24292E;
+    font-size: 16px;
+    font-weight: 500;
+    margin:20px;
+    margin-bottom: 50px;
+}
+img{
+    width:50%;
+    margin:20px;
+    -webkit-box-shadow: -2px 9px 16px 0px rgba(0,0,0,0.42);
+    -moz-box-shadow: -2px 9px 16px 0px rgba(0,0,0,0.42);
+    box-shadow: -2px 9px 16px 0px rgba(0,0,0,0.42);
+}
+@media screen and (max-width:768px){
+    img{
+        width:100%;
+    }
+}
